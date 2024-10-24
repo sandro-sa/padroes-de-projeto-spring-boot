@@ -1,10 +1,10 @@
 # Padrões de projeto
 
-Este projeto via ilustrar a implemetção dos padrões de projeto SINGLETON, STRATEGY E FACADE
+Este projeto visa ilustrar a implementação dos padrões de projetos SINGLETON, STRATEGY E FACADE
 
 ## PADRÃO SINGLETON
 
-Em um projeto Spring Boot sempre que usamos 0  `@Autowired` ou `@Bean` estamos utilizando o padrão Singleton 
+Em um projeto Spring Boot sempre que usamos o  `@Autowired` ou `@Bean` estamos utilizando o padrão Singleton 
 
 O padrão Singleton é um padrão de design que garante que uma classe tenha apenas uma única instância e fornece um ponto global de acesso a essa instância. Ele é útil em várias situações, como:
 
@@ -35,7 +35,7 @@ Em resumo, o padrão Singleton é uma ferramenta poderosa, mas deve ser usado co
 
 ## Padrão Strategy
 
-Em um projeto Spring Boot sempre que imlementamos uma interface  `@Repository` ou `@Service` estamos utilizando o padrão Strategy
+Em um projeto Spring Boot sempre que implementamos uma interface  `@Repository` ou `@Service` estamos utilizando o padrão Strategy
 
 O padrão Strategy é um padrão de design comportamental que permite definir uma família de algoritmos, encapsulá-los e torná-los intercambiáveis. O padrão permite que o algoritmo varie independentemente dos clientes que o utilizam. 
 
@@ -71,7 +71,7 @@ O padrão Strategy é útil para tornar seu código mais limpo e gerenciável, e
 
 ## PADRÃO FACADE
 
-Quando utilizamos recusos externo como de API ViaCEP através de interface estamos utilizando o padrão **Facade**
+Quando utilizamos recusos externo como de API do ViaCEP implmentada neste projeto para consumir um endereço baseado no cep através interface, estamos utilizando o padrão **Facade**
 
 O padrão Facade é um padrão de design estrutural que fornece uma interface simplificada para um sistema complexo, escondendo suas complexidades internas. Ele facilita a interação com subsistemas ou um conjunto de classes, tornando o uso mais intuitivo e acessível.
 
